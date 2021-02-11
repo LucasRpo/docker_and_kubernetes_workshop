@@ -39,7 +39,7 @@ __RESPONSE__
 | CMD      | Permite ejecutar comandos |
 
 
-###COMANDOS DOCKER
+### COMANDOS DOCKER
 
 | Comandos                         | Descripción |
 | -------------------------------- | ---------- |
@@ -52,13 +52,13 @@ En la carpeta k8s vamos a encontrar tres archivos
 
 ![Texto alternativo](src/main/resources/archivos_kubernetes.png)
 
-####Deployment
+#### Deployment
 
-####HPA
+#### HPA
 
-####Services
+#### Services
 
-###COMANDOS K8'S
+### COMANDOS K8'S
 
 | Comandos                         | Descripción |
 | -------------------------------- | ----------- |
