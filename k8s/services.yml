@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: taller-docker-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: taller-docker
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9090 #puerto del contenedor o pod

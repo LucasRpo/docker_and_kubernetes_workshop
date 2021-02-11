@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: taller-docker-deployment
+  labels:
+    app: taller-docker
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: taller-docker
+  template:
+    metadata:
+      labels:
+        app: taller-docker
+    spec:
+      containers:
+        - name: taller-docker
+          image: taller-docker:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 9090
