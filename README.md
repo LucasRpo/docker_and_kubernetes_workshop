@@ -66,3 +66,9 @@ En la carpeta k8s vamos a encontrar tres archivos
 | kubectl apply -f services.yaml   |  |
 | kubectl apply -f hpa.yaml        |  |
 
+
+### CREAR BD
+
+en la ruta 
+``src/main/resources/create_bd.sql`` 
+se encuentran los script para recrear la BD mySQL
