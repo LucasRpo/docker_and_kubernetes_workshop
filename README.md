@@ -46,7 +46,7 @@ __RESPONSE__
 
 | Comandos                         | Descripción |
 | -------------------------------- | ---------- |
-| docker build -t taller_docker .  | Generamos imagen docker apartor del dockerfile  |
+| docker build -t taller_docker .  | Generamos imagen docker apartir del dockerfile  |
 | docker images                    | Listar imagenes Docker  |
 | docker run -d -p 80: taller_docker      | Creamos un contenedor a partir de la imagen Docker   |
 
