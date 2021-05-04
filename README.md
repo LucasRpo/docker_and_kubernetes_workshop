@@ -45,7 +45,7 @@ __RESPONSE__
 | -------------------------------- | ---------- |
 | docker build -t taller_docker .  | Generamos imagen docker apartor del dockerfile  |
 | docker images                    | Listar imagenes Docker  |
-| docker run -d taller_docker      | Creamos un contenedor a partir de la imagen Docker   |
+| docker run -d -p 80: taller_docker      | Creamos un contenedor a partir de la imagen Docker   |
 
 ## KUBERNETES
 En la carpeta k8s vamos a encontrar tres archivos
