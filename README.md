@@ -25,7 +25,10 @@ __REQUEST__
 
 __RESPONSE__
 ~~~
-
+{
+    "codigoHttp": "200",
+    "mensajeExito": "Registrado insertado exitosamente"
+}
 ~~~
 
 ## DOCKERFILE
