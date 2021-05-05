@@ -56,10 +56,13 @@ En la carpeta k8s vamos a encontrar tres archivos
 ![Texto alternativo](src/main/resources/archivos_kubernetes.png)
 
 #### Deployment
+Nos permite definir diferentes funciones: Control de réplicas. Escabilidad de pods.
 
 #### HPA
+El HPA de Kubernetes nos permite variar el número de pods desplegados mediante un replication controller o un deployment en función de diferentes métricas.
 
 #### Services
+Un servicio de Kubernetes agrupa un conjunto de pods y proporciona una conexión de red a estos pods. El servicio selecciona los pods de destino a los que direcciona el tráfico, a través de etiquetas
 
 ### COMANDOS K8'S
 
